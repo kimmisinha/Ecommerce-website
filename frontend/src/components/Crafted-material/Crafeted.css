@@ -1,0 +1,91 @@
+/* .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  .text-content,
+  .image-container {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+   */
+
+   .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  .text-content,
+  .image-container {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn {
+    position: absolute;
+    bottom: -40px;
+    opacity: 0;
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .image-wrapper:hover img {
+    transform: translateY(-10px);
+  }
+  
+  .image-wrapper:hover .btn {
+    bottom: 10px;
+    opacity: 1;
+  }
+  
