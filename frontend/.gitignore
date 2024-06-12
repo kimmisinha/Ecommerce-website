@@ -1,9 +1,0 @@
-node_modules
-dist
-!dist/index.js
-.cache
-.vscode
-yarn.lock
-.DS_*
-*.log
-logs
