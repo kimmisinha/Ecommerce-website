@@ -1,12 +1,12 @@
 # Ignore node_modules directories in both backend and frontend
-./backend/node_modules/
-./frontend/node_modules/
+/backend/node_modules/
+/frontend/node_modules/
 
 # Ignore dist directories but keep dist/index.js
 ./backend/dist/
 ./frontend/dist/
-!/backend/dist/index.js
-!/frontend/dist/index.js
+# !/backend/dist/index.js
+# !/frontend/dist/index.js
 
 # Ignore other common directories and files
 /cache
