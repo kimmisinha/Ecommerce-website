@@ -1,0 +1,65 @@
+.modern-interior-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .left-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .left-content p {
+    margin-bottom: 20px;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    flex: 1 1 calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .right-content img {
+    width: calc(50% - 10px);
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 600px ;
+    left: 10px;
+    z-index: 3;
+  }
+  
+  .image2 {
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+    z-index: 2;
+  }
+  
+  .image3, .image4 {
+    /* position: relative; */
+  }
+  

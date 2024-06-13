@@ -1,9 +1,9 @@
 import React from "react";
 import "./Choose.css";
-import Image_1 from "../../assets/choose-us/truck.svg"; 
-import Image_2 from "../../assets/choose-us/user.svg"; 
-import Image_3 from "../../assets/choose-us/support.svg"; 
-import Image_4 from "../../assets/choose-us/bag.svg"; 
+import Image_1 from "../../assets/choose-us/truck.svg";
+import Image_2 from "../../assets/choose-us/bag.svg";
+import Image_3 from "../../assets/choose-us/support.svg";
+import Image_4 from "../../assets/choose-us/return .svg";
 import OverlapImage1 from "../../assets/choose-us/dots-yellow.svg";
 import OverlapImage2 from "../../assets/choose-us/why-choose-us-img.jpg";
 
@@ -33,8 +33,8 @@ function Choose() {
         </div>
       </div>
       <div className="right-box">
-        <img src={OverlapImage1} alt="Overlap 1" className="overlap-img overlap-img1" />
-        <img src={OverlapImage2} alt="Overlap 2" className="overlap-img overlap-img2" />
+        <img src={OverlapImage2} alt="Overlap 2" className="overlap-img overlap-img1" />
+        <img src={OverlapImage1} alt="Overlap 1" className="overlap-img overlap-img2" />
       </div>
     </div>
   );

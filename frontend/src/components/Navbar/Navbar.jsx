@@ -3,6 +3,8 @@ import { FaShoppingCart, FaUser } from "react-icons/fa";
 import "./Navbar.css";
 import Interior from "../Interior-Design/Interior"
 import Crafted from "../Crafted-material/Crafted"
+import Choose from "../Choose-us/Choose"
+import ModernInterior from "../Modern-Interior /ModernInterior"
 function Navbar() {
   return (
     <div>
@@ -46,6 +48,8 @@ function Navbar() {
       </nav>
       <Interior/>
       <Crafted/>
+      <Choose/>
+      <ModernInterior/>
     </div>
   );
 }
