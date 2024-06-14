@@ -5,6 +5,9 @@ import Interior from "../Interior-Design/Interior"
 import Crafted from "../Crafted-material/Crafted"
 import Choose from "../Choose-us/Choose"
 import ModernInterior from "../Modern-Interior /ModernInterior"
+import PopularProducts from "../ProductItem/PopularProducts"
+// import Testimonials from "../Testimonials/Testimonials"
+
 function Navbar() {
   return (
     <div>
@@ -50,6 +53,8 @@ function Navbar() {
       <Crafted/>
       <Choose/>
       <ModernInterior/>
+      <PopularProducts />
+     {/* <Testimonials/> */}
     </div>
   );
 }

@@ -1,0 +1,16 @@
+.popular-product {
+    padding: 20px 0;
+  }
+  
+  .popular-product .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .popular-product .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  

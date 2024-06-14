@@ -58,6 +58,7 @@
   max-width: 100%;
   height: auto;
   display: block;
+  margin-left: -50px;
 }
 
 .title .title-tag {
@@ -66,4 +67,3 @@
 .title .title-tag2 {
     margin-left: -210px;
 }
-    
