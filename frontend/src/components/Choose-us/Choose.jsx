@@ -18,9 +18,12 @@ function Choose() {
   return (
     <div className="choose-container">
       <div className="left-box">
-        <h1>Why Choose Us</h1>
-        <p>
-          Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+        <h1 className="Choose">Why Choose Us</h1>
+        <p className="choose2">
+          Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. 
+        </p>
+        <p className="choose3">
+          Aliquam vulputate velit imperdiet dolor tempor tristique.
         </p>
         <div className="features">
           {features.map((feature, index) => (

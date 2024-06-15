@@ -2,10 +2,11 @@ import React from "react";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
 import "./Navbar.css";
 import Interior from "../Interior-Design/Interior"
-import Crafted from "../Crafted-material/Crafted"
+// import Crafted from "../Crafted-material/Crafted"
+import ProductDetails from "../Crafted-material/ProductDetails";
 import Choose from "../Choose-us/Choose"
-import ModernInterior from "../Modern-Interior /ModernInterior"
-import PopularProducts from "../ProductItem/PopularProducts"
+//import ModernInterior from "../Modern-Interior /ModernInterior"
+//import PopularProducts from "../ProductItem/PopularProducts"
 // import Testimonials from "../Testimonials/Testimonials"
 
 function Navbar() {
@@ -50,10 +51,11 @@ function Navbar() {
         </div>
       </nav>
       <Interior/>
-      <Crafted/>
+      {/* <Crafted/> */}
+      <ProductDetails/>
       <Choose/>
-      <ModernInterior/>
-      <PopularProducts />
+      {/* <ModernInterior/> */}
+      {/* <PopularProducts /> */}
      {/* <Testimonials/> */}
     </div>
   );
