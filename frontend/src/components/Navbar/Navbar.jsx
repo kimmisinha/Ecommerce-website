@@ -2,13 +2,13 @@ import React from "react";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
 import "./Navbar.css";
 import Interior from "../Interior-Design/Interior"
-// import Crafted from "../Crafted-material/Crafted"
-import ProductDetails from "../Crafted-material/ProductDetails";
 import Choose from "../Choose-us/Choose"
-//import ModernInterior from "../Modern-Interior /ModernInterior"
-//import PopularProducts from "../ProductItem/PopularProducts"
-// import Testimonials from "../Testimonials/Testimonials"
-
+import Crafted from "../Crafted-material/Crafted"
+import ModernInterior from "../Modern-Interior /ModernInterior"
+import PopularProducts from "../ProductItem/PopularProducts"
+import Testimonials from "../Testimonials/Testimonials"
+import Post from "../Post/Post"
+import Footer from "../Footer/Footer"
 function Navbar() {
   return (
     <div>
@@ -51,12 +51,13 @@ function Navbar() {
         </div>
       </nav>
       <Interior/>
-      {/* <Crafted/> */}
-      <ProductDetails/>
+      <Crafted/>
       <Choose/>
-      {/* <ModernInterior/> */}
-      {/* <PopularProducts /> */}
-     {/* <Testimonials/> */}
+      <ModernInterior/>
+      <PopularProducts />
+      <Testimonials/>
+      <Post/>
+      <Footer/>
     </div>
   );
 }

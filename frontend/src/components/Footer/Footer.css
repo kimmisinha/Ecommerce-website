@@ -1,0 +1,141 @@
+.footer-section {
+  padding: 60px 0;
+  background: #f8f9fa;
+  position: relative;
+}
+
+.container.relative {
+  position: relative;
+}
+
+.sofa-img {
+  position: absolute;
+  top: 30%; /* Adjust this value to vertically center the image or position it as needed */
+  right: 0;
+  transform: translateY(-50%); /* Vertically center the image */
+  z-index: 0; /* Ensure it’s behind the main content but visible */
+  width: 300px; /* Adjust size as needed */
+}
+
+.img-fluid-sofa {
+  max-width: 100%; /* Ensure the image scales within the container */
+
+  height: 400px; /* Maintain aspect ratio */
+  width:900px;
+  position: relative;
+  top: -200px;    /* 50 pixels from the top */
+  left: -50px;   /* 20 pixels from the left */
+
+
+}
+
+.subscription-form h3 {
+  display: flex;
+  align-items: center;
+}
+
+.subscription-form h3 img {
+  margin-right: 10px;
+}
+
+.subscription-form form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-logo-wrap {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-logo span {
+  color: #007bff;
+}
+
+.custom-social {
+  display: flex;
+  gap: 10px;
+}
+
+.custom-social li {
+  list-style: none;
+}
+
+.custom-social li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.custom-social li a:hover {
+  color: #007bff;
+}
+
+.links-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.links-wrap ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-wrap ul li {
+  margin-bottom: 10px;
+}
+
+.links-wrap ul li a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.links-wrap ul li a:hover {
+  color: #007bff;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6;
+}
+
+.copyright {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.me-4 {
+  margin-right: 1.5rem;
+}
+
+.me-1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3b5d50;
+  margin-left: 20px;
+}
+
+.list-unstyled a{
+  font-size: 14px;
+  color:#2f2f2f;
+  font-family: sans-serif;
+
+}

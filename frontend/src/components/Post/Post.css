@@ -1,0 +1,81 @@
+.recent-blog {
+  padding: 20px;
+  background-color: rgb(239, 242, 241); /* Adding the background color */
+  min-height: 500px; /* Increase the minimum height for the main box */
+  padding-bottom: 100px; /* Double the bottom padding for extra space */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0;
+  font-size:27px;
+  color:#2f2f2f;
+  font-family: sans-serif;
+  margin-left: 10px;
+
+}
+
+.view-all {
+  text-decoration: none;
+  font-size: 14px;
+  color:#2f2f2f
+ 
+}
+
+
+.posts {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.post-item {
+  background: #fff;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 30%; /* Ensure the boxes fit within the row */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  margin-left: 15px; /* Add margin to the left */
+  margin-right: 5px; /* Add margin to the right */
+  background-color:rgb(239,242,241);
+  font-size: 16px;
+
+}
+
+.post-image {
+  width: calc(100% - 20px); /* Adjust width to account for margins */
+  height: auto;
+  margin:  5px auto; /* Center the image and add bottom margin */
+  display: block;
+  border-radius:15px;
+}
+
+.post-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+  margin-bottom: 10px; /* Add bottom margin */
+}
+.post-image:hover {
+  opacity: 0.7; /* Adjust the opacity value as needed */
+  cursor: pointer;
+}
+
+.post-item p {
+  /* Add your styles here */
+  font-size: 14px; /* Example style */
+  color: rgb(47, 47, 47); /* Example style */
+  font-family: sans-serif; /* Example style */
+  font:bold;
+  margin-top: 0px;
+}

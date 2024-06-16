@@ -28,21 +28,23 @@ function ModernInterior() {
         </p>
         <ul className="features-list">
           <li>
-            Donec vitae odio quis <br /> nisl dapibus malesuada
+            Donec vitae odio quis nisl dapibus
+             {/* nisl dapibus malesuada */}
           </li>
           <li>
-            Donec vitae odio quis nisl <br />
-            dapibus malesuada
+            Donec vitae odio quis nisl  dapibus
+             {/* dapibus malesuada */}
           </li>
           <li>
-            Donec vitae odio quis nisl <br />
-            dapibus malesuada
+            Donec vitae odio quis  nisl dapibus
+            {/* dapibus malesuada */}
           </li>
           <li>
-            Donec vitae odio quis nisl <br />
-            dapibus malesuada
+            Donec vitae odio quis nisl dapibus
+            {/* dapibus malesuada */}
           </li>
         </ul>
+        <button className="Explore">Explore</button>
       </div>
     </div>
   );
