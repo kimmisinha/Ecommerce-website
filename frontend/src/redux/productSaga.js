@@ -32,9 +32,9 @@ const mockProducts = [
 
 function* fetchProducts() {
   try {
-    yield call(() => new Promise((resolve) => setTimeout(resolve, 1000)));
+    const Products = yield call(() => new Promise((resolve) => setTimeout(()=>resolve(mockProducts), 1000)));
 
-    yield put(fetchProductsSuccess(mockProducts));
+    yield put(fetchProductsSuccess(Products));
   } catch (error) {
     yield put(fetchProductsFailure(error.message));
   }
