@@ -35,9 +35,8 @@
 
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../../redux/postActions';
+import { fetchPostRequest } from '../../redux/postActions';
 import './Post.css';
-
 const Post = ({ posts, fetchPosts }) => {
   useEffect(() => {
     fetchPosts(); // Fetch posts when component mounts
@@ -63,12 +62,11 @@ const Post = ({ posts, fetchPosts }) => {
 };
 
 const mapStateToProps = (state) => ({
-  posts: state.posts.posts 
+  posts: state.posts.posts,
 });
 
 const mapDispatchToProps = {
-  fetchPosts // Map fetchPosts action creator to props,
-  
+  fetchPosts: fetchPostRequest, // Map fetchPostRequest action creator to props,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Post);
