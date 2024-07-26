@@ -18,10 +18,10 @@ const Footer = () => {
             <div className="subscription-form">
               <h3 className="d-flex align-items-center">
                 <span className="me-1">
-                  <img src={envelopeImg} alt="Envelope" className="img-fluid" />
+                <img src={envelopeImg} style={{ marginLeft: "20px" }} alt="Envelope" className="img-fluid" />
                 </span>
-                <span>Subscribe to Newsletter</span>
-              </h3>
+                <span style={{ color: "#36564C" }}>Subscribe to Newsletter</span>
+                </h3>
               <form action="#" className="row g-3">
                 <div className="col-auto">
                   <input
@@ -54,7 +54,7 @@ const Footer = () => {
             <div className="row links-wrap">
               {/* Column 1 */}
               <div className="col-6 col-sm-6 col-md-3">
-                <ul className="list-unstyled text-left">
+                <ul className="list-unstyled-text-left">
                   <li>
                     <a href="#">About us</a>
                   </li>
@@ -72,7 +72,7 @@ const Footer = () => {
 
               {/* Column 2 */}
               <div className="col-6 col-sm-6 col-md-3">
-                <ul className="list-unstyled text-left">
+                <ul className="list-unstyled-text-left">
                   <li>
                     <a href="#">Support</a>
                   </li>
@@ -87,7 +87,7 @@ const Footer = () => {
 
               {/* Column 3 */}
               <div className="col-6 col-sm-6 col-md-3">
-                <ul className="list-unstyled text-left">
+                <ul className="list-unstyled-text-left">
                   <li>
                     <a href="#">Jobs</a>
                   </li>
@@ -105,7 +105,7 @@ const Footer = () => {
 
               {/* Column 4 */}
               <div className="col-6 col-sm-6 col-md-3">
-                <ul className="list-unstyled text-left">
+                <ul className="list-unstyled-text-left">
                   <li>
                     <a href="#">Nordic Chair</a>
                   </li>
@@ -123,30 +123,30 @@ const Footer = () => {
 
         {/* Links Section */}
       </div>
-
       {/* Copyright Section */}
-      <div className="border-top copyright">
-        <div className="row pt-4">
-          <div className="col-lg-6 text-center text-lg-start">
-            <p className="mb-2">
-              Copyright &copy; {new Date().getFullYear()}. All Rights Reserved.
-              &mdash; Designed with love by{" "}
-              <a href="https://untree.co">Untree.co</a> Distributed By{" "}
-              <a href="https://themewagon.com">ThemeWagon</a>
-            </p>
-          </div>
-          <div className="col-lg-6 text-center text-lg-end">
-            <ul className="list-unstyled d-inline-flex ms-auto">
-              <li className="me-4">
-                <a href="#">Terms &amp; Conditions</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <div className="border-top copyright ">
+  <div className="row pt-4">
+    <div className="col-lg-6 text-center text-lg-start">
+      <p className="mb-2">
+        Copyright &copy; {new Date().getFullYear()}. All Rights Reserved.
+        &mdash; Designed with love by{" "}
+        <a href="https://untree.co">Untree.co</a> Distributed By{" "}
+        <a href="https://themewagon.com">ThemeWagon</a>
+      </p>
+    </div>
+    <div className="col-lg-6 text-center text-lg-end">
+      <ul className="list-unstyled d-inline-flex ms-auto mb-0">
+        <li className="me-3">
+          <a className="hello" href="#">Terms &amp; Conditions</a>
+        </li>
+        <li>
+          <a className="hello" href="#">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
     </footer>
   );
 };
